@@ -46,9 +46,6 @@
                                     <segment title="×"/>
                                     <segment title="÷"/>
                                 </segments>
-                                <connections>
-                                    <action selector="calcStatusChangedButton:" destination="BYZ-38-t0r" eventType="valueChanged" id="jch-Ht-5Xo"/>
-                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aX-Kc-fzY">
                                 <rect key="frame" x="142.5" y="295" width="90" height="35"/>

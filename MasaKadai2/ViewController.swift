@@ -13,12 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak private var numberInputTextField2: UITextField!
     @IBOutlet weak private var calcStatus: UISegmentedControl!
     @IBOutlet weak private var showNumberLabel: UILabel!
-
-    /// IBActionを非表示にすると、UISegmentedControl動かしたときにクラッシュするので
-    /// calcStatusChangedButtonのアクションは残しておく
-    @IBAction func calcStatusChangedButton(_ sender: Any) {
-    }
-
     @IBAction func resultButton(_ sender: Any) {
 
         let numberInput1 = Float(numberInputTextField1.text ?? "") ?? 0
